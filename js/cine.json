@@ -1,0 +1,547 @@
+[
+    {
+        "id": 1,
+        "movie": "Coco",
+        "description": "The story follows a 12-year-old boy named Miguel (Gonzalez) who is accidentally transported to the Land of the Dead, where he seeks the help of his deceased musician great-great-grandfather to return him to his family among the living and to reverse his family's ban on music.",
+        "image": "./img/coco.png",
+        "stars": 4.7,
+        "seats": [
+            {
+                "number": 1,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 2,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 3,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 4,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 5,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 6,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 7,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 8,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 9,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 10,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 11,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 12,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 13,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 14,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 15,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 16,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 17,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 18,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 19,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 20,
+                "state": true,
+                "price": 100
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "movie": "Winnie the Pooh",
+        "description": "While searching for honey, Pooh and his friends embark on an adventure to find Eeyore's missing tail and rescue Christopher Robin from an unknown monster called The Backson",
+        "image": "./img/winnie-the-pooh.png",
+        "stars": 3,
+        "seats": [
+            {
+                "number": 1,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 2,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 3,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 4,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 5,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 6,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 7,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 8,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 9,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 10,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 11,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 12,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 13,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 14,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 15,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 16,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 17,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 18,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 19,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 20,
+                "state": true,
+                "price": 100
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "movie": "Interstellar",
+        "description": "Interstellar is about Earth's last chance to find a habitable planet before a lack of resources causes the human race to go extinct. The film's protagonist is Cooper (Matthew McConaughey), a former NASA pilot who is tasked with leading a mission through a wormhole to find a habitable planet in another galaxy.",
+        "image": "./img/interstellar.png",
+        "stars": 4.9,
+        "seats": [
+            {
+                "number": 1,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 2,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 3,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 4,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 5,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 6,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 7,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 8,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 9,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 10,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 11,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 12,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 13,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 14,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 15,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 16,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 17,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 18,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 19,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 20,
+                "state": true,
+                "price": 100
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "movie": "Inception",
+        "description": "Inception centres on brooding “extractor” Dom Cobb (played by Leonardo DiCaprio)—a thief who invades targets' dreams through a chemical-induced shared dream state in order to steal valuable information.",
+        "image": "./img/inception.png",
+        "stars": 5,
+        "seats": [
+            {
+                "number": 1,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 2,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 3,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 4,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 5,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 6,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 7,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 8,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 9,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 10,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 11,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 12,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 13,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 14,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 15,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 16,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 17,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 18,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 19,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 20,
+                "state": true,
+                "price": 100
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "movie": "Toy Story",
+        "description": "Taking place in a world where toys come to life when humans are not present, the plot of Toy Story focuses on the relationship between an old-fashioned pull-string cowboy doll named Woody and a modern space cadet action figure, Buzz Lightyear",
+        "image": "./img/toy-story.png",
+        "stars": 5,
+        "seats": [
+            {
+                "number": 1,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 2,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 3,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 4,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 5,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 6,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 7,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 8,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 9,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 10,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 11,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 12,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 13,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 14,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 15,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 16,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 17,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 18,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 19,
+                "state": true,
+                "price": 100
+            },
+            {
+                "number": 20,
+                "state": true,
+                "price": 100
+            }
+        ]
+    }
+]

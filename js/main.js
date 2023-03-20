@@ -36,7 +36,7 @@ const obtenerPeliculasDelJSON = () => {
         renderizarPeliculas(json);
     
     });
-}
+};
 
 // INICIO DEL PROGRAMA
 

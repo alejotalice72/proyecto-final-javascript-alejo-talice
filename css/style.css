@@ -1,4 +1,26 @@
+/* HEADER */
+    .header {
+        padding-top: 2rem;
+    }
+    .header img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .navbar-brand {
+        padding: 0.5rem;
+        background-color: aliceblue;
+        border-radius: 100px;
+    }
+    .navbar__bg {
+        background-color: #0099ff;
+    }
+    .wave {
+        display: inline;
+        height: 1rem;
+    }
+
 /* INDEX */
+
 #movies {
     display: flex;
     flex-wrap: wrap;
@@ -6,12 +28,13 @@
     align-items: center;
     justify-content: space-around;
 }
-/* CARD */
+
+/* card */
 .movie__card {
     border-radius: 15px;
     /* border: 5px solid yellow; */
-    height: 14rem;
-    width: 10rem;
+    height: 16rem;
+    width: 12rem;
     margin: 2rem 1rem 2rem 1rem;
     box-shadow: 2px 1px 49px -8px rgba(0,0,0,0.64);
     -webkit-box-shadow: 2px 1px 49px -8px rgba(0,0,0,0.64);
@@ -24,4 +47,17 @@
     border-radius: 10px;
     height: 100%;
     width: 100%;
+}
+
+/* SEATS */
+
+#info img {
+    border-radius: 20px;
+}
+#info .info__body {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.material-symbols-outlined {
+    color: yellow;
 }

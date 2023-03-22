@@ -5,10 +5,16 @@ const urlParams = new URLSearchParams(queryParams);
 const movie = urlParams.get('movie');
 
 // Funciones  
-
+const addToCart = (seat) => {
+    cart.push(seat);
+    console.log(cart);
+};
+const removeFromCart = (seat) => {
+    console.log(seat);
+};
 const verificarEstado = (state) => {
     
-    if (state) {
+    if (!state) {
         return 'asiento--libre.png';
     } else {
         return 'asiento--ocupado.png';
@@ -46,8 +52,54 @@ const renderizarAsientos = (movieInfo) => {
         asientoImg.src = '../img/logo/' + state; 
 
         asiento.addEventListener('click', ()=>{
-            console.log("Hola")
-        });
+
+                if (seat.state === false) {
+
+                    asientoImg.src = '../img/logo/asiento--espera.png';
+                    
+                    Toastify({
+                        text: "Agregado",
+                        duration: 5000,
+                        gravity: "top",
+                        close: true,
+                        className: "info",
+                    }).showToast();
+
+                    seat.state = 'espera';
+                    addToCart(seat);
+
+                } else if (seat.state === true) {
+
+                    Toastify({
+                        text: "Ocupado",
+                        duration: 5000,
+                        gravity: "top",
+                        close: true,
+                        className: "warning",
+                    }).showToast();
+
+                } else {
+                    
+                    Swal.fire({
+                        text: 'Desea deshacer la seleccion',
+                        icon: 'warning',
+                        iconColor: '#EFEC24',
+                        confirmButtonText: 'Ok ✓',
+                        cancelButtonText: 'No ✕',
+                        confirmButtonColor: '#96EF24',
+                        cancelButtonColor: '#F02222',
+                        showCancelButton: true,
+                        focusConfirm: true,
+                      }).then((result)=>{
+                        if (result.isConfirmed) {
+                            removeFromCart(seat);
+                        }
+                      });
+
+                }
+                  
+
+            });
 
         asiento.append(asientoImg);
         col.append(asiento)
@@ -128,6 +180,7 @@ const llamarJSON = (movie) => {
 };
 
 // INICIAR PROGRAMA
+const cart = [];
 
 const infoBody = document.querySelector('#info');
 const seatsBody = document.querySelector('#seats');

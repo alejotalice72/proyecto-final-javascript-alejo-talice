@@ -1,27 +1,47 @@
 /* HEADER */
-    header {
-        line-height: 0;
-    }
-    .header {
-        padding-top: 2rem;
-    }
-    .header img {
-        width: 3.5rem;
-        height: 3.5rem;
-    }
-    .navbar-brand {
-        padding: 0.5rem;
-        background-color: aliceblue;
-        border-radius: 100px;
-    }
-    .navbar__bg {
-        background-color: #0099ff;
-    }
-    .wave {
-        display: inline;
-        height: 1rem;
-    }
+header {
+    line-height: 0;
+}
+.header {
+    padding-top: 2rem;
+}
+.header img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.navbar-brand {
+    padding: 0.5rem;
+    background-color: aliceblue;
+    border-radius: 100px;
+}
+.navbar__bg {
+    background-color: #0099ff;
+}
+.wave {
+    display: inline;
+    height: 1rem;
+}
 
+/* FOOTER */
+/* cart */
+#bubble {
+    color: black;
+    text-align: center;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 1rem;
+    border: 2px solid black;
+    box-shadow: 2px 1px 49px -8px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 2px 1px 49px -8px rgba(0,0,0,0.64);
+    -moz-box-shadow: 2px 1px 49px -8px rgba(0,0,0,0.64);
+    font-weight: bold;
+}
+#bubble span {
+    font-size: 1.5rem;
+}
 /* INDEX */
 #movies {
     display: flex;
@@ -76,7 +96,7 @@
     padding-top: 1rem;
     padding-bottom: 2rem;
 }
-.material-symbols-outlined {
+#info .material-symbols-outlined {
     color: yellow;
 }
 .info__center {
@@ -98,4 +118,34 @@
     font-size: 1.5rem;
     font-weight: bold;
     cursor: pointer;
+}
+/* toast */
+.info {
+    color: white;
+    background: linear-gradient(to right, #FFFB09, #e3e328);
+    font-weight: 400;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.warning {
+    color: white;
+    background: linear-gradient(to right, #c83c3c, #dc3636);
+    font-weight: 400;
+    border-radius: 20px;
+    font-weight: bold;
+}
+/* MediaQuerys */
+@media (min-width:768px) {
+    #bubble {
+        right: 40px;
+        bottom: 30px;
+    }
+    .header img {
+        width: 5rem;
+        height: 5rem;
+    }
+    .navbar-brand {
+        background-color: aliceblue;
+        border-radius: 100px;
+    }
 }

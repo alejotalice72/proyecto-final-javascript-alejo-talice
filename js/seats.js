@@ -4,7 +4,59 @@ const queryParams = window.location.search;
 const urlParams = new URLSearchParams(queryParams);
 const movie = urlParams.get('movie');
 
-// Funciones
+// Funciones  
+
+const verificarEstado = (state) => {
+    
+    if (state) {
+        return 'asiento--libre.png';
+    } else {
+        return 'asiento--ocupado.png';
+    }
+
+};
+
+const renderizarAsientos = (movieInfo) => {
+
+    const seats = movieInfo.seats;
+
+    const pantallaContainer = document.createElement('div');
+    pantallaContainer.className = 'd-flex align-items-center justify-content-center';
+
+    const pantalla = document.createElement('img')
+    pantalla.src = '../img/logo/pantalla.png'
+    
+    pantallaContainer.append(pantalla);
+
+    const row = document.createElement('div');
+    row.className = 'row row-cols-4 gy-5';
+
+    for (const seat of seats) {
+        
+        const state = verificarEstado(seat.state);
+
+        const col = document.createElement('div');
+        col.className = 'col';
+
+        const asiento = document.createElement('div');
+        asiento.className = 'asiento ';
+        asiento.innerText = seat.number;
+
+        const asientoImg = document.createElement('img');
+        asientoImg.src = '../img/logo/' + state; 
+
+        asiento.addEventListener('click', ()=>{
+            console.log("Hola")
+        });
+
+        asiento.append(asientoImg);
+        col.append(asiento)
+        row.append(col);
+        seatsBody.append(pantallaContainer, row);
+
+    }
+
+}
 
 const renderizarInfo = (movieInfo) => {
 
@@ -15,7 +67,6 @@ const renderizarInfo = (movieInfo) => {
         let grade = '';
         for (let i = 0; i < parseInt(movieInfo.stars); ++i) {
             grade += 'grade ';
-            console.log(grade)
         }    
         return grade;
 
@@ -25,7 +76,7 @@ const renderizarInfo = (movieInfo) => {
     row.className = 'row align-items-end';
 
     const colUno = document.createElement('div');
-    colUno.className = 'col-12 col-md-6';
+    colUno.className = 'col-12 col-md-6 info__center';
 
     const colDos = document.createElement('div');
     colDos.className = 'col-12 col-md-6 info__body';
@@ -70,7 +121,8 @@ const llamarJSON = (movie) => {
         movieInfo = json[movieIndex];
 
         renderizarInfo(movieInfo);
-    
+        renderizarAsientos(movieInfo);
+     
     });
 
 };
@@ -78,5 +130,6 @@ const llamarJSON = (movie) => {
 // INICIAR PROGRAMA
 
 const infoBody = document.querySelector('#info');
+const seatsBody = document.querySelector('#seats');
 
 llamarJSON(movie);

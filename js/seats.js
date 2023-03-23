@@ -4,10 +4,21 @@ const queryParams = window.location.search;
 const urlParams = new URLSearchParams(queryParams);
 const movie = urlParams.get('movie');
 
-// Funciones  
+// Funciones 
+const verificarLS = () => {
+
+};
+const subirLS = () => {
+    
+    const cartLS = JSON.stringify(cart);
+    localStorage.setItem('cart', cartLS);
+
+};
+
 const addToCart = (seat) => {
 
     cart.push(seat);
+    subirLS();
 
 };
 const removeFromCart = (seat) => {
@@ -16,6 +27,7 @@ const removeFromCart = (seat) => {
         return seat.number === asiento.number;
     });
     cart.splice(seatIndex, 1);
+    subirLS();
 
 };
 const verificarEstado = (state) => {
@@ -27,6 +39,23 @@ const verificarEstado = (state) => {
     }
 
 };
+
+// Renderizar
+const renderizarCarritoMini = (cantidadDeAsientos) => {
+
+    miniCarrito.innerHTML = '';
+    const cartIcon = document.createElement('span');
+    cartIcon.className = 'material-symbols-outlined';
+    cartIcon.innerText = 'shopping_cart';
+
+    if (cantidadDeAsientos <= 0) {
+        miniCarrito.className = 'hidden';
+    } else {
+        miniCarrito.className = 'show';
+        miniCarrito.append(cartIcon, cantidadDeAsientos);
+    }
+
+}
 
 const renderizarAsientos = (movieInfo) => {
 
@@ -73,6 +102,7 @@ const renderizarAsientos = (movieInfo) => {
 
                     seat.state = 'espera';
                     addToCart(seat);
+                    renderizarCarritoMini(cart.length);
 
                 } else if (seat.state === true) {
 
@@ -92,14 +122,15 @@ const renderizarAsientos = (movieInfo) => {
                         iconColor: 'yellow',
                         confirmButtonText: 'Ok ✓',
                         cancelButtonText: 'No ✕',
-                        confirmButtonColor: '#B9B9B0',
-                        cancelButtonColor: '#F02222',
+                        confirmButtonColor: '#ABED7D',
+                        cancelButtonColor: '#DF1919',
                         showCancelButton: true,
                         focusConfirm: true,
                       }).then((result)=>{
                         if (result.isConfirmed) {
 
                             removeFromCart(seat);
+                            renderizarCarritoMini(cart.length);
                             asientoImg.src = '../img/logo/asiento--libre.png';
                             seat.state = false;
 
@@ -194,5 +225,6 @@ const cart = [];
 
 const infoBody = document.querySelector('#info');
 const seatsBody = document.querySelector('#seats');
+const miniCarrito = document.querySelector('#bubble')
 
 llamarJSON(movie);

@@ -6,11 +6,17 @@ const movie = urlParams.get('movie');
 
 // Funciones  
 const addToCart = (seat) => {
+
     cart.push(seat);
-    console.log(cart);
+
 };
 const removeFromCart = (seat) => {
-    console.log(seat);
+
+    const seatIndex = cart.findIndex((asiento)=>{
+        return seat.number === asiento.number;
+    });
+    cart.splice(seatIndex, 1);
+
 };
 const verificarEstado = (state) => {
     
@@ -83,16 +89,20 @@ const renderizarAsientos = (movieInfo) => {
                     Swal.fire({
                         text: 'Desea deshacer la seleccion',
                         icon: 'warning',
-                        iconColor: '#EFEC24',
+                        iconColor: 'yellow',
                         confirmButtonText: 'Ok ✓',
                         cancelButtonText: 'No ✕',
-                        confirmButtonColor: '#96EF24',
+                        confirmButtonColor: '#B9B9B0',
                         cancelButtonColor: '#F02222',
                         showCancelButton: true,
                         focusConfirm: true,
                       }).then((result)=>{
                         if (result.isConfirmed) {
+
                             removeFromCart(seat);
+                            asientoImg.src = '../img/logo/asiento--libre.png';
+                            seat.state = false;
+
                         }
                       });
 

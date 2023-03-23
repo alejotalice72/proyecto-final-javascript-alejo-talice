@@ -39,12 +39,12 @@
             },
             {
                 "number": 7,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
                 "number": 8,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
@@ -74,7 +74,7 @@
             },
             {
                 "number": 14,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
@@ -289,17 +289,17 @@
             },
             {
                 "number": 13,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
                 "number": 14,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
                 "number": 15,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
@@ -324,7 +324,7 @@
             },
             {
                 "number": 20,
-                "state": false,
+                "state": true,
                 "price": 100
             }
         ]
@@ -344,12 +344,12 @@
             },
             {
                 "number": 2,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
                 "number": 3,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
@@ -394,7 +394,7 @@
             },
             {
                 "number": 12,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
@@ -484,12 +484,12 @@
             },
             {
                 "number": 8,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
                 "number": 9,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
@@ -529,7 +529,7 @@
             },
             {
                 "number": 17,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
@@ -574,12 +574,12 @@
             },
             {
                 "number": 4,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
                 "number": 5,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {

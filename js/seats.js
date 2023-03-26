@@ -5,16 +5,12 @@ const urlParams = new URLSearchParams(queryParams);
 const movie = urlParams.get('movie');
 
 // Funciones 
-const verificarLS = () => {
-
-};
 const subirLS = () => {
     
     const cartLS = JSON.stringify(cart);
     localStorage.setItem('cart', cartLS);
 
 };
-
 const addToCart = (seat) => {
 
     cart.push(seat);
@@ -215,6 +211,9 @@ const llamarJSON = (movie) => {
 
         renderizarInfo(movieInfo);
         renderizarAsientos(movieInfo);
+        miniCarrito.addEventListener('click', ()=>{
+            window.location.href = `./cart.html?movie=${movieInfo.movie}`;
+        });
      
     });
 

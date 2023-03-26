@@ -551,10 +551,10 @@
     },
     {
         "id": 6,
-        "movie": "Toy Story",
-        "description": "Taking place in a world where toys come to life when humans are not present, the plot of Toy Story focuses on the relationship between an old-fashioned pull-string cowboy doll named Woody and a modern space cadet action figure, Buzz Lightyear",
-        "image": "./img/toy-story.png",
-        "stars": 4,
+        "movie": "Shrek",
+        "description": " Our story's title character, Shrek is a big, green, terrifying ogre who lives alone on a swamp. He embarks on a journey to help the fairytale creatures that Lord Farquaad has banished from Duloc and, at the same time, rid his home of other creatures who might fear and ridicule him",
+        "image": "./img/shrek.png",
+        "stars": 3,
         "cast": "Miguel ; Benjamin Bratt. Personaje : Ernesto de la Cruz ; Gael García Bernal. Personaje : Hector ; Edward James Olmos",
         "seats": [
             {
@@ -661,9 +661,9 @@
     },
     {
         "id": 7,
-        "movie": "Toy Story",
-        "description": "Taking place in a world where toys come to life when humans are not present, the plot of Toy Story focuses on the relationship between an old-fashioned pull-string cowboy doll named Woody and a modern space cadet action figure, Buzz Lightyear",
-        "image": "./img/toy-story.png",
+        "movie": "Tierra de osos",
+        "description": "When a young Inuit hunter needlessly kills a bear, he is magically changed into a bear himself as punishment with a talkative cub being his only guide to changing back.",
+        "image": "./img/tierra-de-osos.png",
         "stars": 4,
         "cast": "Miguel ; Benjamin Bratt. Personaje : Ernesto de la Cruz ; Gael García Bernal. Personaje : Hector ; Edward James Olmos",
         "seats": [
@@ -704,12 +704,12 @@
             },
             {
                 "number": 8,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
                 "number": 9,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
@@ -749,12 +749,12 @@
             },
             {
                 "number": 17,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
                 "number": 18,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
@@ -771,9 +771,9 @@
     },
     {
         "id": 8,
-        "movie": "Toy Story",
-        "description": "Taking place in a world where toys come to life when humans are not present, the plot of Toy Story focuses on the relationship between an old-fashioned pull-string cowboy doll named Woody and a modern space cadet action figure, Buzz Lightyear",
-        "image": "./img/toy-story.png",
+        "movie": "Enredados",
+        "description": "Tangled tells the story of Rapunzel, a lost young princess with magical long blonde hair who yearns to leave her secluded tower. She accepts the aid of an intruder to take her out into the world which she has never seen.",
+        "image": "./img/enredados.png",
         "stars": 4,
         "cast": "Miguel ; Benjamin Bratt. Personaje : Ernesto de la Cruz ; Gael García Bernal. Personaje : Hector ; Edward James Olmos",
         "seats": [
@@ -799,12 +799,12 @@
             },
             {
                 "number": 5,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
                 "number": 6,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
@@ -859,7 +859,7 @@
             },
             {
                 "number": 17,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
@@ -869,27 +869,27 @@
             },
             {
                 "number": 19,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
                 "number": 20,
-                "state": false,
+                "state": true,
                 "price": 100
             }
         ]
     },
     {
         "id": 9,
-        "movie": "Toy Story",
-        "description": "Taking place in a world where toys come to life when humans are not present, the plot of Toy Story focuses on the relationship between an old-fashioned pull-string cowboy doll named Woody and a modern space cadet action figure, Buzz Lightyear",
-        "image": "./img/toy-story.png",
+        "movie": "Las locuras del emperador",
+        "description": "La película esta inspirada en la cultura peruana y sigue a un arrogante y joven emperador inca llamado Kuzco que es transformado en una llama por su exconsejera, Yzma y su asistente Kronk.",
+        "image": "./img/las-locuras-del-emperador.png",
         "stars": 4,
         "cast": "Miguel ; Benjamin Bratt. Personaje : Ernesto de la Cruz ; Gael García Bernal. Personaje : Hector ; Edward James Olmos",
         "seats": [
             {
                 "number": 1,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
@@ -939,22 +939,22 @@
             },
             {
                 "number": 11,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
                 "number": 12,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
                 "number": 13,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
                 "number": 14,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
@@ -991,9 +991,9 @@
     },
     {
         "id": 10,
-        "movie": "Toy Story",
-        "description": "Taking place in a world where toys come to life when humans are not present, the plot of Toy Story focuses on the relationship between an old-fashioned pull-string cowboy doll named Woody and a modern space cadet action figure, Buzz Lightyear",
-        "image": "./img/toy-story.png",
+        "movie": "Madagascar",
+        "description": "A group of animals who have spent all their life in a New York zoo end up in the jungles of Madagascar, and must adjust to living in the wild. A group of animals who have spent all their life in a New York zoo end up in the jungles of Madagascar, and must adjust to living in the wild.",
+        "image": "./img/madagascar.png",
         "stars": 4,
         "cast": "Miguel ; Benjamin Bratt. Personaje : Ernesto de la Cruz ; Gael García Bernal. Personaje : Hector ; Edward James Olmos",
         "seats": [
@@ -1014,12 +1014,12 @@
             },
             {
                 "number": 4,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
                 "number": 5,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
@@ -1049,7 +1049,7 @@
             },
             {
                 "number": 11,
-                "state": false,
+                "state": true,
                 "price": 100
             },
             {
